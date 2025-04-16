@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class FinancialCalculators {
 
-    static Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
 
         System.out.println("Please select which calculator you would like to use:\n" +
@@ -14,28 +12,31 @@ public class FinancialCalculators {
                 "3. Present Value Calculator\n" +
                 "**Enter the digit corresponding with the desired calculator**");
 
+        Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
-        double output = 0;
 
-        if (choice == 1) {
-            output = mortgageCalculator();
-        } else if (choice == 2) {
-            output = futureValueCalculator();
-        } else if (choice == 3) {
-            output = presentValueCalculator();
-        } else System.out.println("Invalid entry, please run the program again.");
+        switch (choice) {
+            case 1:
+                mortgageCalculator(scanner);
+                break;
+            case 2:
+                futureValueCalculator(scanner);
+                break;
+            case 3:
+                presentValueCalculator(scanner);
+            default: System.out.println("Invalid Entry, please run the program again.");
+        }
+    }
+
+    public static void mortgageCalculator(Scanner scanner) {
 
     }
 
-    public static double mortgageCalculator() {
+    public static void futureValueCalculator(Scanner scanner) {
 
     }
 
-    public static double futureValueCalculator() {
-
-    }
-
-    public static double presentValueCalculator() {
+    public static void presentValueCalculator(Scanner scanner) {
 
     }
 }
