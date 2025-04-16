@@ -17,3 +17,8 @@
 
 #### Ordinary Annuity Calculator
 ![Ordinary Annuity Calc](screenshots/ordinary-annuity-calculator-screenshot.png)
+
+#### Erroneous Input and Error Message
+![Error Message](screenshots/financial-calculator-error-screenshot.png)
+
+## Interesting piece of code
