@@ -27,6 +27,8 @@ public class FinancialCalculators {
                 break;
             case 3:
                 presentValueCalculator(scanner);
+            default:
+                System.out.println("Invalid entry, please try again.");
         }
     }
 
