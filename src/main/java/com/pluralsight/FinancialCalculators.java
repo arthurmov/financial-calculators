@@ -6,7 +6,7 @@ public class FinancialCalculators {
 
     public static void main(String[] args) {
         // home screen that prompts user to pick the calculator they would like to use
-        System.out.println("Please select which calculator you would like to use:\n" +
+        System.out.println("Welcome! Please select which financial calculator you would like to use:\n" +
                 "1. Mortgage calculator\n" +
                 "2. Future value of a one-time deposit assuming compound interest calculator\n" +
                 "3. Present value of an ordinary annuity calculator\n" +
@@ -20,12 +20,15 @@ public class FinancialCalculators {
         //switch statement that takes the corresponding user response and directs them to the calculator/method needed
         switch (choice) {
             case 1:
+                System.out.println("You selected the mortgage calculator.");
                 mortgageCalculator(scanner);
                 break;
             case 2:
+                System.out.println("You selected the compound interest on a deposit calculator.");
                 futureValueCalculator(scanner);
                 break;
             case 3:
+                System.out.println("You selected the ordinary annuity calculator.");
                 presentValueCalculator(scanner);
                 break;
             default:
