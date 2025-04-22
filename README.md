@@ -7,7 +7,7 @@
 
 ## Screenshots
 #### Main Menu
-![Main Meny Screenshot](screenshots/financial-calculator-home-screen.png)
+![Main Menu Screenshot](screenshots/financial-calculator-home-screen.png)
 
 #### Mortgage Calculator
 ![Mortgage Calc Screenshot](screenshots/mortgage-calculator-screenshot.png)
